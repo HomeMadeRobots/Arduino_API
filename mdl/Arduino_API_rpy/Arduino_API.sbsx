@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RhapsodyArchive>
+	<MagicNumber></MagicNumber>
+	<CODE-PAGE>1252</CODE-PAGE>
+	<version>100.831.0</version>
+	<lang>C++</lang>
+	<BuildNo>9835649</BuildNo>
+	
+	<RHAPSODY-MODEL>
+	<ISubsystem type="e">
+			<_id type="a">GUID 2820aa26-675e-4bdd-bc4d-0fb8bbabcc9d</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Arduino_API</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">1</size>
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">.\..\..\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Project_Metamodel.sbsx</_hfilename>
+							<_hsubsystem type="a">Project_Metamodel::Stereotypes</_hsubsystem>
+							<_hname type="a">Software_Package</_hname>
+							<_hid type="a">GUID afb0e42d-a399-4819-bb39-46f0fd0f0fbf</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">9.7.2020::20:48:34</_modifiedTimeWeak>
+			<_modifiedTime type="a">9.7.2020::20:48:34</_modifiedTime>
+			<weakCGTime type="a">9.7.2020::20:48:38</weakCGTime>
+			<strongCGTime type="a">9.7.2020::16:51:4</strongCGTime>
+			<_defaultComposite type="s">GUID 120ea94c-5b1b-4ce4-b07b-be570166da1e</_defaultComposite>
+			<_eventsBaseID type="a">-1</_eventsBaseID>
+			<_configurationRelatedTime type="a">1.2.1990::0:0:0</_configurationRelatedTime>
+			<AggregatesList type="e">
+				<value>GUID 120ea94c-5b1b-4ce4-b07b-be570166da1e</value>
+			</AggregatesList>
+		</ISubsystem>
+		<IClass type="e">
+			<_id type="a">GUID 120ea94c-5b1b-4ce4-b07b-be570166da1e</_id>
+			<_myState type="a">40960</_myState>
+			<_name type="a">TopLevel</_name>
+			<_modifiedTimeWeak type="a">9.7.2020::20:48:38</_modifiedTimeWeak>
+			<_modifiedTime type="a">9.7.2020::20:48:38</_modifiedTime>
+			<_lastID type="a">5</_lastID>
+			<weakCGTime type="a">9.7.2020::20:48:38</weakCGTime>
+			<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
+			<_itsStateChart type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_itsStateChart>
+			<_classModifier type="a">Unspecified</_classModifier>
+			<AggregatesList type="e">
+				<value>GUID f0bb3b69-671b-4e18-af04-a011e0d28892</value>
+				<value>GUID c6e447e1-f91f-406a-8a9c-3918b271c7d4</value>
+			</AggregatesList>
+		</IClass>
+		<IPrimitiveOperation type="e">
+			<_id type="a">GUID f0bb3b69-671b-4e18-af04-a011e0d28892</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">millis</_name>
+			<_modifiedTimeWeak type="a">9.7.2020::16:8:38</_modifiedTimeWeak>
+			<_description type="p"><IDescription type="e">
+				<_text type="a">Returns the number of milliseconds passed since the Arduino board began running the current program. This number will overflow (go back to zero), after approximately 50 days.</_text>
+			</IDescription>
+			</_description>
+			<_modifiedTime type="a">9.7.2020::16:8:38</_modifiedTime>
+			<_virtual type="a">0</_virtual>
+			<Args type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">0</size>
+				</IRPYRawContainer>
+			</Args>
+			<_returnType type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IType</_hm2Class>
+					<_hfilename type="a">.\..\..\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Software_Data_Type_Metamodel.sbsx</_hfilename>
+					<_hsubsystem type="a">Software_Data_Type_Metamodel::Stereotypes</_hsubsystem>
+					<_hname type="a">uint32</_hname>
+					<_hid type="a">GUID 3f1b684a-51d5-4374-a479-56bd195faa9e</_hid>
+				</IHandle>
+			</_returnType>
+			<_abstract type="a">0</_abstract>
+			<_final type="a">0</_final>
+			<_concurrency type="a">Sequential</_concurrency>
+			<_protection type="a">iPublic</_protection>
+			<_static type="a">0</_static>
+			<_constant type="a">0</_constant>
+		</IPrimitiveOperation>
+		<IPrimitiveOperation type="e">
+			<_id type="a">GUID c6e447e1-f91f-406a-8a9c-3918b271c7d4</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">digitalRead</_name>
+			<_modifiedTimeWeak type="a">9.7.2020::16:25:44</_modifiedTimeWeak>
+			<_description type="p"><IDescription type="e">
+				<_text type="a">Reads the value from a specified digital pin, either HIGH or LOW.</_text>
+			</IDescription>
+			</_description>
+			<_modifiedTime type="a">9.7.2020::16:25:44</_modifiedTime>
+			<_lastID type="a">1</_lastID>
+			<_virtual type="a">0</_virtual>
+			<_returnType type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IType</_hm2Class>
+					<_hfilename type="a">.\..\..\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Software_Data_Type_Metamodel.sbsx</_hfilename>
+					<_hsubsystem type="a">Software_Data_Type_Metamodel::Stereotypes</_hsubsystem>
+					<_hname type="a">sint16</_hname>
+					<_hid type="a">GUID ebb36a0f-a588-4dc2-b4ff-03b59b7f0451</_hid>
+				</IHandle>
+			</_returnType>
+			<_abstract type="a">0</_abstract>
+			<_final type="a">0</_final>
+			<_concurrency type="a">Sequential</_concurrency>
+			<_protection type="a">iPublic</_protection>
+			<_static type="a">0</_static>
+			<_constant type="a">0</_constant>
+			<AggregatesList type="e">
+				<value>GUID e28c2c3c-c65b-461e-a5f4-09d88fe747af</value>
+			</AggregatesList>
+		</IPrimitiveOperation>
+		<IArgument type="e">
+			<_id type="a">GUID e28c2c3c-c65b-461e-a5f4-09d88fe747af</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">pin</_name>
+			<_modifiedTimeWeak type="a">9.7.2020::16:25:31</_modifiedTimeWeak>
+			<_modifiedTime type="a">9.7.2020::16:25:31</_modifiedTime>
+			<_typeOf type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IType</_hm2Class>
+					<_hfilename type="a">.\..\..\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Software_Data_Type_Metamodel.sbsx</_hfilename>
+					<_hsubsystem type="a">Software_Data_Type_Metamodel::Stereotypes</_hsubsystem>
+					<_hname type="a">uint8</_hname>
+					<_hid type="a">GUID 058963e7-375f-4f57-aceb-5a2f36b75490</_hid>
+				</IHandle>
+			</_typeOf>
+			<_isOrdered type="a">0</_isOrdered>
+			<_argumentDirection type="a">In</_argumentDirection>
+		</IArgument>
+		
+	</RHAPSODY-MODEL>
+	<OslcLinks type="c">
+		<IRPYRawContainer type="e">
+			<size type="a">0</size>
+		</IRPYRawContainer>
+	</OslcLinks>
+
+<INCLUDES-RHAPSODY-INDEX>false</INCLUDES-RHAPSODY-INDEX>
+</RhapsodyArchive>
+
